@@ -1,13 +1,13 @@
-package dev.java10x.CadastroNinja;
+package dev.java10x.NinjaRegistration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CadastroNinjaApplication {
+public class NinjaRegistrationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CadastroNinjaApplication.class, args);
+		SpringApplication.run(NinjaRegistrationApplication.class, args);
 	}
 
 }

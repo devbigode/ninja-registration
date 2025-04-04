@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.java10x</groupId>
-	<artifactId>CadastroNinja</artifactId>
+	<artifactId>NinjaRegistration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CadastroNinja</name>
+	<name>NinjaRegistration</name>
 	<description>Uma API para cadastrar ninjas do universo de Naruto</description>
 	<url/>
 	<licenses>

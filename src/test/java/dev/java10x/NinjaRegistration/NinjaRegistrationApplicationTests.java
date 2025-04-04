@@ -1,10 +1,10 @@
-package dev.java10x.CadastroNinja;
+package dev.java10x.NinjaRegistration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CadastroNinjaApplicationTests {
+class NinjaRegistrationApplicationTests {
 
 	@Test
 	void contextLoads() {

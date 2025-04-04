@@ -1,5 +1,6 @@
-package dev.java10x.CadastroNinja;
+package dev.java10x.NinjaRegistration.Ninja;
 
+import dev.java10x.NinjaRegistration.Mission.MissionModel;
 import jakarta.persistence.*;
 
 @Entity
@@ -13,6 +14,10 @@ public class NinjaModel {
     private String email;
     private int age;
 
+    @ManyToOne
+    @JoinColumn(name = "id_mission") // Foreign Key
+    private MissionModel mission;
+
     public NinjaModel(){}
 
     public NinjaModel(String name, String email, int age){
@@ -21,4 +26,10 @@ public class NinjaModel {
         this.age = age;
     }
 
+    public NinjaModel(String name, String email, int age, MissionModel mission) {
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.mission = mission;
+    }
 }
